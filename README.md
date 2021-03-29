@@ -54,6 +54,9 @@ Application to sonify falcon 9 rocket launches
  - CSV based data is required. Currently only output of F9Sim (https://www.mcrenox.com.ar/f9sim/) is supported.
  - example data for Falcon9 CRS-17 mission: [falcon9-crs17-log.zip](https://github.com/citron0xa9/FalconSonification/files/6223805/falcon9-crs17-log.zip)
 
+# Running
+ - working directory has to contain the `samples` folder which contain sampled sound files.
+
 # Building
  - Requires C++-17
  - Tested with Visual Studio 2017
