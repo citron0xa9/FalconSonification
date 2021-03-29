@@ -149,18 +149,13 @@ void FalconSimulation::parseFlightLog(const juce::File& flightLog)
 
 void FalconSimulation::parseFlightLogLine(juce::String line)
 {
-    static constexpr float simulationTimeOffset = -3.0;
-
     juce::StringArray lineElements;
     lineElements.addTokens(line, "\t;,", "\"");
 
-    if ((lineElements[0].getFloatValue() + simulationTimeOffset) < 0) {
-        return;
-    }
     
     mFlightLog.emplace_back();
     TimepointData& lineData = mFlightLog.back();
-    lineData.mTimeSeconds = lineElements[0].getFloatValue() + simulationTimeOffset;
+    lineData.mTimeSeconds = lineElements[0].getFloatValue();
     lineData.mFlightTimeMilliseconds = static_cast<uint32_t>(lineElements[1].getIntValue());
     lineData.mFuelKg = static_cast<uint32_t>(lineElements[2].getIntValue());
     lineData.mThrottlePercent = lineElements[3].getFloatValue();
