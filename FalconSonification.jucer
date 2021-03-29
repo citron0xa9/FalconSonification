@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="OzowWa" name="FalconSonification" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="wRsCFM" name="FalconSonification">
+    <GROUP id="{DE0538B6-F648-A9B7-6C58-6AD123349E89}" name="Source">
+      <FILE id="LtCR4K" name="ShutdownSonificationState.cpp" compile="1"
+            resource="0" file="Source/ShutdownSonificationState.cpp"/>
+      <FILE id="sXJmMZ" name="ShutdownSonificationState.h" compile="0" resource="0"
+            file="Source/ShutdownSonificationState.h"/>
+      <FILE id="xeYT7i" name="PausedPlayingSonificationState.cpp" compile="1"
+            resource="0" file="Source/PausedPlayingSonificationState.cpp"/>
+      <FILE id="gEruWd" name="PausedPlayingSonificationState.h" compile="0"
+            resource="0" file="Source/PausedPlayingSonificationState.h"/>
+      <FILE id="p3tHCt" name="PausePlayingSonificationState.cpp" compile="1"
+            resource="0" file="Source/PausePlayingSonificationState.cpp"/>
+      <FILE id="NitynZ" name="PausePlayingSonificationState.h" compile="0"
+            resource="0" file="Source/PausePlayingSonificationState.h"/>
+      <FILE id="Tt0tS4" name="StopPlayingSonificationState.cpp" compile="1"
+            resource="0" file="Source/StopPlayingSonificationState.cpp"/>
+      <FILE id="SQSwlo" name="StopPlayingSonificationState.h" compile="0"
+            resource="0" file="Source/StopPlayingSonificationState.h"/>
+      <FILE id="ggKqfs" name="PlayingSonificationState.cpp" compile="1" resource="0"
+            file="Source/PlayingSonificationState.cpp"/>
+      <FILE id="UpOpsI" name="PlayingSonificationState.h" compile="0" resource="0"
+            file="Source/PlayingSonificationState.h"/>
+      <FILE id="XXvpt8" name="StartPlayingSonificationState.cpp" compile="1"
+            resource="0" file="Source/StartPlayingSonificationState.cpp"/>
+      <FILE id="JJmRKO" name="StartPlayingSonificationState.h" compile="0"
+            resource="0" file="Source/StartPlayingSonificationState.h"/>
+      <FILE id="VOSwfP" name="ReadySonificationState.cpp" compile="1" resource="0"
+            file="Source/ReadySonificationState.cpp"/>
+      <FILE id="RBDfc1" name="ReadySonificationState.h" compile="0" resource="0"
+            file="Source/ReadySonificationState.h"/>
+      <FILE id="anOAPK" name="AudioReadySonificationState.cpp" compile="1"
+            resource="0" file="Source/AudioReadySonificationState.cpp"/>
+      <FILE id="yGbiDi" name="AudioReadySonificationState.h" compile="0"
+            resource="0" file="Source/AudioReadySonificationState.h"/>
+      <FILE id="hQRC4T" name="StartupSonificationState.cpp" compile="1" resource="0"
+            file="Source/StartupSonificationState.cpp"/>
+      <FILE id="kQ9hEG" name="StartupSonificationState.h" compile="0" resource="0"
+            file="Source/StartupSonificationState.h"/>
+      <FILE id="x74eTz" name="SonificationState.cpp" compile="1" resource="0"
+            file="Source/SonificationState.cpp"/>
+      <FILE id="lz34BN" name="SonificationState.h" compile="0" resource="0"
+            file="Source/SonificationState.h"/>
+      <FILE id="UpAoER" name="ParameterComponent.cpp" compile="1" resource="0"
+            file="Source/ParameterComponent.cpp"/>
+      <FILE id="fpyTUa" name="ParameterComponent.h" compile="0" resource="0"
+            file="Source/ParameterComponent.h"/>
+      <FILE id="uKrKMO" name="exprtk.h" compile="0" resource="0" file="Source/exprtk.h"/>
+      <FILE id="CN7wIc" name="SampledSound.cpp" compile="1" resource="0"
+            file="Source/SampledSound.cpp"/>
+      <FILE id="gaPdE4" name="SampledSound.h" compile="0" resource="0" file="Source/SampledSound.h"/>
+      <FILE id="rHD7os" name="MainSonificationProcessor.cpp" compile="1"
+            resource="0" file="Source/MainSonificationProcessor.cpp"/>
+      <FILE id="LkSRG8" name="MainSonificationProcessor.h" compile="0" resource="0"
+            file="Source/MainSonificationProcessor.h"/>
+      <FILE id="JykylB" name="FalconSimulation.cpp" compile="1" resource="0"
+            file="Source/FalconSimulation.cpp"/>
+      <FILE id="YxQAGb" name="FalconSimulation.h" compile="0" resource="0"
+            file="Source/FalconSimulation.h"/>
+      <FILE id="C1RMug" name="MainWindow.cpp" compile="1" resource="0" file="Source/MainWindow.cpp"/>
+      <FILE id="SSi19V" name="MainWindow.h" compile="0" resource="0" file="Source/MainWindow.h"/>
+      <FILE id="YSGtJm" name="FalconSonificationApplication.cpp" compile="1"
+            resource="0" file="Source/FalconSonificationApplication.cpp"/>
+      <FILE id="IZ29L3" name="FalconSonificationApplication.h" compile="0"
+            resource="0" file="Source/FalconSonificationApplication.h"/>
+      <FILE id="UlaqSA" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="agqk5u" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="xCQysK" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="FalconSonification"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="FalconSonification"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
